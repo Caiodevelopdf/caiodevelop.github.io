@@ -1,0 +1,137 @@
+header {
+    max-width: 1440px;
+}
+.nav-bar {
+    max-width: 1039px;
+    margin: 0 auto ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo h1 {
+    color: #151515;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 11px;
+}
+.logo span {
+    font-weight: 600;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.nav a:hover {
+    color: #F53838;
+}
+header a {
+    text-decoration: none;
+}
+.nav-item a {
+    color: #2B2B2B;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.login  {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+}
+.login a {
+    color: #2B2B2B;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.login-emphasis {
+    display: flex;
+    width: 101px;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid #f53838;
+    align-items: center;
+}
+.login-emphasis a {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #f53838;
+}
+.mobile-menu-icon {
+    display: none;
+}
+.mobile-menu {
+    display: none;
+}
+@media screen and (max-width: 870px){
+    .login{
+        gap: 10px;
+    }
+    .nav ul {
+        gap: 15px;
+    }
+}
+@media screen and (max-width: 730px){
+    .nav-bar {
+        margin-top: 6%;
+    }
+    .nav {
+        display: none;
+    }
+    .login {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent ;
+        border: none;
+        cursor: pointer;
+        margin-right: 30px;
+    }
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 15px;
+        justify-content: space-between;
+    }
+    .mobile-menu li {
+        margin: 0 auto ;
+        width: 200px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #F53838;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 28px;
+    }
+    .login-mobile {
+        margin-top: 20px;
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .open {
+        display: block;
+    }
+}

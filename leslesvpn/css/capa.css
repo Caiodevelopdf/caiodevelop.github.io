@@ -1,0 +1,48 @@
+.capa {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto ;
+    margin-top: 7%;
+    margin-left: 10%;
+    flex-wrap: wrap;
+}
+.capa-text h1 {
+    max-width:506px;
+    font-family: Rubik;
+    color: #2B2B2B;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+.capa-text span {
+    font-weight: 600;
+}
+.capa-text p {
+    max-width: 553px;
+    color: #5A5A5A;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 42px;
+}
+.capa-text button {
+    display: flex;
+    width: 192px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: none;
+    background: #F53838;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 58px;
+}
