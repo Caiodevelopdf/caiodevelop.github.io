@@ -1,0 +1,8 @@
+.capa {
+    max-width: 1440px;
+    align-items: center;
+    margin: 0 auto;
+}
+.capa img {
+    max-width: 100%;
+}

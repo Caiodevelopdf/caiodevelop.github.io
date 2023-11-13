@@ -1,0 +1,122 @@
+.projects {
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto ;
+    justify-content: space-between;
+}
+.Projects-nav {
+    margin-left: 7%;
+    margin-top: 8%;
+}
+.Projects-nav ul {
+    list-style: none;
+}
+.Projects-nav a {
+    text-decoration: none;
+}
+.Projects-nav h1{
+    color: #292E3d;
+    font-family: Work Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 14px;
+    margin-bottom: 40px;
+}
+.Projects-nav li {
+    color: #C2C7D6;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 16px ;
+    margin-bottom: 20px;
+}
+.Projects-nav a:hover {
+    color:#2947A9;
+    border-left: 4px solid #2947A9;
+    padding-left: 14px;
+}
+.projects-item {
+    margin-top: 12%;
+    margin-right: 6%;
+    margin-bottom: 9%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    gap: 30px;
+}
+.projects-item-container {
+    max-width: 384px;
+}
+.projects-item-text {
+    background-color: #2947A9;
+    margin-top: -10px;
+}
+.projects-item-text h1 {
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+.projects-item-text p {
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+@media (max-width: 1150px){
+    .projects-item {
+        margin-right: 2%;
+    }
+}
+@media (max-width: 1075px){
+    .projects {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .projects-item {
+        margin: 0;
+        margin-top: 20px;
+    }
+    .Projects-nav {
+        margin: 0px;
+        margin-top: 35px;
+    }
+    .Projects-nav ul{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    .Projects-nav h1{
+        text-align: center;
+    }
+    .Projects-nav a:hover {
+        color:#2947A9;
+        border-bottom: 4px solid #2947A9;
+        padding-bottom: 10px;
+        border-left: 0;
+    }
+}
+@media (max-width: 750px) {
+    .projects-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

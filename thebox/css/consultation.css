@@ -1,0 +1,72 @@
+.consultation {
+    max-width: 1440px;
+    background-image: url(../img/unsplash_MP0bgaS_d1c.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.consultation-text h1 {
+    margin-top: 100px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.consultation-text p {
+    margin-top: 30px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 7%;
+}
+.consultation-text span {
+    text-decoration: underline;
+}
+.consultation-text {
+    margin-left: 7%;
+}
+
+.consultation button {
+    margin-top: 100px;
+    margin-right: 11% ;
+    color: #FFF;
+    padding: 16px 20px;
+    border-radius: 2px;
+    border: 2px solid #FFF;
+    background-color: rgba(255, 255, 255, 0.0);
+}
+@media (max-width: 1130px){
+    .consultation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .consultation-text h1 {
+        margin-top: 50px;
+    }
+    .consultation button {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 600px) {
+    .consultation-text h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .consultation-text p {
+        margin-bottom: 2%;
+    }
+    .consultation-text {
+        margin-left:2%;
+    }
+}

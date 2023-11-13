@@ -1,0 +1,196 @@
+.experience {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top:7% ;
+}
+.experience-item {
+    margin-left: 15%;
+    margin-top:8%;
+    margin-bottom: 7%;
+}
+.width280 {
+    width: 280px;
+}
+.width361{
+    width: 361px;
+}
+.experience-item-layout {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    background: #FFF;
+    box-shadow: 0px 4px 6px -2px rgba(17, 24, 39, 0.05), 0px 12px 16px -4px rgba(17, 24, 39, 0.10);
+}
+.experience-item-layout h1 {
+    color: #292E3D;
+    font-family: Work Sans;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.experience-item-layout p {
+    color: #667299;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.experience-item-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.experience-item-text {
+    border-left: 4px solid #F9995D;
+    padding-left: 12px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.experience-img-one img {
+    position: absolute;
+    margin-left: 185px;
+}
+.experience-img-two img {
+    position: absolute;
+    margin-left: -60px;
+    margin-top: -140px;
+}
+.experience-img-three img {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -20px;
+}
+.experience-img-four img{
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 200px;
+}
+.experience-one {
+    position: relative;
+    margin-left: 280px;
+    margin-top: -100px;
+    margin-bottom: -60px;
+}
+.experience-two {
+    margin-bottom: 93px;
+}
+.experience-three {
+    position: relative;
+    z-index: 1;
+    margin-top: -100px;
+    margin-left: 260px;
+}
+.experience-four {
+    position: relative;
+    margin-left: 100px;    
+}
+/* text*/
+.experience-text {
+    margin-right: 10%;
+}
+.experience-text h1{
+    margin-top: 12%;
+    max-width: 359px;
+    color: #2947A9;
+    font-family: Work Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.experience-text p {
+    margin-top: 40px;
+    max-width: 330px;
+    color: #525B7A;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.experience-text button {
+    margin-top: 67px;
+    width: 176px;
+    cursor: pointer;
+    background: #2947A9;
+    color: #FFF;
+    padding: 16px 20px;
+    align-items: center;
+    border: 0;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+@media (max-width: 1250px) {
+    .experience-item {
+        margin-left: 8%;
+        margin-top:8%;
+        margin-bottom: 7%;
+    }
+    .experience-text {
+        margin-right: 2%;
+    }
+}
+@media (max-width: 1035px) {
+
+    .experience {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .experience-item:nth-child(1){
+        order: 2;
+    }
+    .experience-text {
+        display: flex;
+        margin-right: 0;
+        flex-direction: column;
+        max-width: 500px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;   
+    }
+
+    .experience-text button {
+        margin-top: 30px;
+    }
+    .experience-one, .experience-two, .experience-three, .experience-four {
+        margin: 0;
+        margin-bottom: 35px;
+    }
+    .experience-text h1 {
+        max-width: 100%;
+        text-align: center;
+    }
+    .experience-text p {
+        max-width: 100%;
+        text-align: center;
+    }
+    .experience-item-text {
+        padding: 0;
+    }
+    .experience-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .experience-img-four img {
+        margin-left:250px;
+    }
+}

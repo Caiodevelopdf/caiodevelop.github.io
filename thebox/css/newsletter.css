@@ -1,0 +1,108 @@
+.newsletter {
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6%;
+}
+.newsletter-contato{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.newsletter-contato-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.newsletter h1 {
+    color: #2947a9;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-variant: all-small-caps;
+    margin-right: 13px;
+}
+.newsletter-contato-text p {
+    color: #292e3d;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.newsletter-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center 
+}
+.newsletter-logo h1 {
+    color: #2947a9;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 13px;
+}
+.newsletter-logo span {
+    font-style: italic;
+}
+.newsletter-form h1 {
+    margin-bottom: 20px;
+}
+.newsletter-form input {
+    width: 280px;
+    border-radius: 4px;
+    border: 1px solid #E0E3EB;
+    padding: 10px 8px;
+}
+.newsletter-form  button {
+    width: 136px;
+    cursor: pointer;
+    padding: 16px 20px;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #F9995D;
+    border: 0;
+}
+.newsletter-form {
+    margin-right: 6%;
+}
+.footer {
+    background: #2947a9;
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer p {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 112px;
+    color: #FFF;
+}
+@media (max-width: 1100px){
+    .newsletter {
+        margin-top: 8%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .newsletter-contato, .newsletter-form {
+        margin: 0;
+    }
+    .newsletter-form {
+        max-width: 100%;
+        flex-direction: row;
+    }
+}

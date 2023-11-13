@@ -1,0 +1,63 @@
+.reputation {
+    max-width: 1440px;
+    display: flex;
+    align-items: center ;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+
+.reputation h1 {
+    color: #292e3d;
+    font-family: Work Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 60px;
+}
+
+.reputation-item {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0 auto;
+    margin-bottom: 84px;
+}
+
+.reputation-op  {
+    width: 292px;
+    border: 1px solid #E0E3EB;
+    padding: 20px 20px 40px 20px;
+}
+
+.reputation-op img {
+    max-width: 40px;
+}
+
+.reputation-op h1 {
+    color: #3D445C;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.reputation-op p {
+    color: #858EAD;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media (max-width: 1100px) {
+    .reputation-item {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
