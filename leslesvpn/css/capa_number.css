@@ -1,0 +1,88 @@
+.capa-number {
+    width: 820px;
+    height: 114px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+    gap: 60px;
+    box-shadow: 7px 13px 35px 0px rgba(0, 0, 0, 0.09) ;
+    border-radius: 20px;
+    margin-top: 67px;
+}
+.capa-number span {
+
+    width: 1px;
+    height: 40px;
+    background-color: #EAEAEA;
+}
+.capa-number-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+.number-item-img {
+    width: 37px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 500px;
+    background-color:rgba(245, 56, 56, 0.10);
+}
+.number-item-img img {
+    max-width: 100%;
+}
+.number-item-text h1{
+    color: #2B2B2B;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.number-item-text p {
+    color: #646464;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style:  normal;
+    font-weight: 400;
+    line-height: normal;
+}
+@media screen and (max-width: 850px) {
+    .capa-number {
+        width: 331px;
+        height: 65px;
+        gap: 30px;
+        border-radius: 11px;
+        flex-shrink: 0;
+        margin: 0 auto; 
+        align-items: center;
+        margin-top:38px ;
+        
+    }
+    .capa-number-item {
+        gap: 13px;
+    }
+    .number-item-img {
+        width: 20px;
+        height: 20px;
+    }
+    .number-item-img img {
+        width: 13px;
+    }
+    .number-item-text h1 {
+        font-size: 11px;
+    }
+    .number-item-text p{
+        font-size: 8px;
+    }
+    .capa-number span {
+        height: 22px;
+    }
+}
