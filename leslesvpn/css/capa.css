@@ -5,6 +5,9 @@
     margin-top: 7%;
     margin-left: 10%;
 }
+.capa-text {
+    margin: 0 auto;
+}
 .capa-text h1 {
     max-width:506px;
     font-family: Rubik;
@@ -60,7 +63,6 @@
         align-items: center;
         margin: 0 auto;
         margin-top: 24px;
-
     }
     .capa-img {
         max-width: 400px;

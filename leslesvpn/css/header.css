@@ -1,15 +1,16 @@
 header {
     max-width: 1440px;
+    margin: 0 auto;
 }
 .nav-bar {
     max-width: 1039px;
-    margin: 0 auto ;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-top: 2%;
     margin-left: 10%;
+    
 }
 .logo {
     display: flex;
