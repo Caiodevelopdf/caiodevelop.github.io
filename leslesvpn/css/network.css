@@ -1,0 +1,102 @@
+.network {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 6%;
+    justify-content: center;
+    align-items: center;
+}
+.network-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.network-title h1 {
+    color: #2B2B2B;
+    width: 252px;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.network-title p {
+    width: 559px;
+    color: #5A5A5A;
+    text-align: Center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 16px;
+}
+.network-img {
+    display: flex;
+    position: relative;
+    max-width: 100%;
+}
+.map img{
+    max-width: 100%;
+}
+.freme1 {
+    position: absolute;
+    width: 49px;
+    top: 20%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+
+}
+.freme2 {
+    position: absolute;
+    width: 49px;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
+}
+.freme3 {
+    position: absolute;
+    width: 49px;
+    top: 68%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+
+}
+.freme4 {
+    position: absolute;
+    width: 49px;
+    top: 48%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+
+}
+.network-img {
+    margin-top: 60px;
+}
+.network-parceiros img {
+    max-width: 100%;
+}
+@media screen and (max-width: 730px) {
+    .network-title h1 {
+        font-size: 17px;
+    }
+    .network-title p {
+        text-align: center;
+        font-size: 10px;
+        margin-top: 10px;
+        width: 276px;
+    }
+    .freme {
+        width: 20px;
+    }
+    .network-img {
+        width:311px ;
+    }
+    .network-parceiros {
+        width: 347px;
+    }
+}
