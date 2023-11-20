@@ -1,0 +1,55 @@
+.Subscribe {
+    margin: 0 auto;
+    margin-top: 88px;
+    width: 1146px;
+    height: 181px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 571px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 12px 18px 54px 0px rgba(0, 0, 0, 0.11);
+}
+.Subscribe-title{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 17px;
+}
+.Subscribe-title h1{
+    width: 251px;
+    color: #2B2b2B;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.Subscribe-title p {
+    color: #5a5a5a;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Subscribe button {
+    display: flex;
+    width: 244px;
+    height: 57px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    background: #f53838;
+    color: #FFF;
+    font-size:18px ;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 50px;
+}
