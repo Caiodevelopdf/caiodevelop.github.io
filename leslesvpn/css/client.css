@@ -149,4 +149,7 @@
     .comment-container-bottom p{
         font-size: 10px;
     }
+    .client-title p {
+        width: 313px;
+    }
 }

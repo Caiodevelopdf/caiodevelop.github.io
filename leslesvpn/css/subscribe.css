@@ -1,7 +1,7 @@
 .Subscribe {
     margin: 0 auto;
     margin-top: 88px;
-    width: 1146px;
+    max-width: 1146px;
     height: 181px;
     display: flex;
     flex-direction: row;
@@ -11,6 +11,7 @@
     border-radius: 20px;
     background: #FFF;
     box-shadow: 12px 18px 54px 0px rgba(0, 0, 0, 0.11);
+    margin-bottom: -30px;
 }
 .Subscribe-title{
     margin-left: 50px;
@@ -52,4 +53,47 @@
     font-weight: 600;
     line-height: normal;
     margin-right: 50px;
+    cursor: pointer;
+}
+@media screen and (max-width: 1160px) {
+    .Subscribe {
+        gap: 300px;
+    }
+}
+@media screen and (max-width: 860px) {
+    .Subscribe {
+        gap: 150px;
+    }
+}
+@media screen and (max-width: 730px) {
+    .Subscribe {
+        margin: 0 auto;
+        margin-top: 58px;
+        width: 348px;
+        height: 309px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        margin-bottom: 30px;
+    }
+    .Subscribe-title{
+        justify-content: center;
+        gap: 17px;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .Subscribe-title h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+    .Subscribe-title p {
+        text-align: center;
+        font-size: 16px;
+    }
+    .Subscribe button {
+        font-size: 18px;
+        margin: 0;
+        margin-bottom:30px ;
+    }
 }
